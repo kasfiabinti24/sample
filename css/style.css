@@ -1,0 +1,59 @@
+
+body{
+    min-height: 100vh;
+}
+.color{
+    background-color: #FF9900;
+}
+.link-color a{
+    color: white;
+}
+.font-color-link a{
+    color: black;
+}
+footer{
+    height: 100px;
+    background-color: #FF9900;
+    position: sticky;
+    top: 100%;
+}
+footer .font-color-link a{
+    color: white;
+    font-weight: 500;
+    
+
+}
+.main{
+    height: 450px;
+    width: 100%;
+    
+}
+.login{
+    height: 350px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.login input{
+    width: 300px;
+}
+.login button{
+    padding: 10px 15px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+.signup{
+    width: 50%;
+    height: max-content;
+
+}
+.signup button{
+    font-size: large;
+    font-weight: bold;
+}
+.signup h3{
+    color: #FF9900;
+}
